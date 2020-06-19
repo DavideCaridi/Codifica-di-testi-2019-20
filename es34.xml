@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!-- Inserire all'interno di un tag un frammento di codice HTML -->
+<body>
+    <htmlCode>
+        <![CDATA[
+            <h1>Titolo</h1>
+            <p>Testo</p>
+        ]]>
+    </htmlCode>
+</body>

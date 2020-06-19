@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!-- Scrivere e fare il check di un xml non opportunamente annidato -->
+<body>
+<text>
+</body>
+ERRORE
+</text>
+<!-- OUTPUT ERRORE
+es32.xml:10: parser error : Opening and ending tag mismatch: text line 9 and body
+</body>
+       ^
+es32.xml:12: parser error : Opening and ending tag mismatch: body line 8 and text
+</text>
+       ^
+-->

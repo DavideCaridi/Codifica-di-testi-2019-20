@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!-- Codificare usando gli opportuni elementi TEI un articolo di rivista -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Se fossi più simpatica... sarei meno antipatica</title>
+                <author>Fernando Fratarcangeli</author>
+                <respStmt>
+                    <resp>transcription by</resp>
+					<name>Rosario Bono</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital Edition <date when="2020-06">June 2020</date></edition>
+                <respStmt>
+                    <resp>TEI P5 conversion by</resp>
+                    <name>Davide Caridi</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date when="2020-06">June 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <author>Fernando Fratarcangeli</author>
+                            <title level="a">Se fossi più simpatica... sarei meno antipatica</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">RARO!</title>
+                            <imprint>
+                                <date when="1994-10">ottobre 1994</date>
+                            </imprint>
+                            <biblScope unit="issue">47</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct>
+                        <analytic>
+                            <author>Rosario Bono</author>
+                            <title level="a">Se fossi più simpatica... sarei meno antipatica</title>
+                        </analytic>
+                        <monogr>
+                            <title level="u">Voci divine</title>
+                            <imprint>
+                                <date when="2008-12-12">12 dicembre 2008</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Se fossi più simpatica... sarei meno antipatica</titlePart>
+                    <titlePart type="sub">Selezione intervista a <persName><addName>Giuni Russo</addName></persName></titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Fernando Fratarcangeli</docAuthor>
+                </byline>
+                <docImprint>
+                    <date when="1994-10">ottobre 1994</date>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body xml:lang="it">
+            <pb n="1"/>
+            <div n="1">
+                <p>
+                    <rs type="question" rend="bold"><persName><addName>Giuni</addName></persName>, sei anni di silenzio discografico, due se vogliamo considerare la <term subtype="music-term">raccolta</term> <rs type="album">Amala</rs> che conteneva però due soli <term subtype="music-term">brani</term> inediti...</rs>
+                    <rs type="answer">Quel <term subtype="music-term">disco</term> l'ho soffocato come madre perché c'era un errore in un <term subtype="music-term">pezzo</term> che amavo molto, comunque <date when="1992">due anni fa</date> perlomeno qualcosa è successo...</rs>
+                </p>
+            </div>
+            <div n="2">
+                <p>
+                    <rs type="question" rend="bold">L'ultimo tuo <term subtype="music-term">album</term> ufficiale risale invece al <date when="1988">1988</date>, qual è il motivo di questa lunga assenza?</rs>
+                    <rs type="answer">Prima di tutto la difficoltà che incontra un certo tipo di artista, soprattutto se donna, in <placeName>Italia</placeName>. Non vorrei iniziare questa intervista con la polemica ma è la realtà.</rs>
+                </p>
+            </div>
+            <div n="3">
+                <p>
+                    <rs type="question" rend="bold">È solo questo il motivo?</rs>
+                    <rs type="answer">Forse non è solo questo, nel frattempo ho fatto delle cose diverse, <orgName>i pomeriggi musicali</orgName>, ho imbastito una tournée di <term subtype="music-term">arie da camera</term>. Se faccio questo non posso fare altre cose. In realtà non mi sono poi sbattuta più di tanto. Avevo bisogno di trovare un produttore che credeva in me, e questo è sempre stato molto difficile. Questa volta stranamente è accaduto, per caso un produttore ha sentito il mio materiale ed è venuto fuori questo <term subtype="music-term">disco</term>.</rs>
+                </p>
+            </div>
+            <div n="4">
+                <p>
+                    <rs type="question" rend="bold">Nel quale hai fatto un po' la parte del leone: interprete, autrice di quasi tutti i <term subtype="music-term">brani</term>, hai curato anche parte degli <term subtype="music-term">arrangiamenti</term>...</rs>
+                    <rs type="answer">Per la verità gli <term subtype="music-term">arrangiamenti</term> li ho sempre seguiti un pochino, anche se questa volta me ne sono interessata molto di più, così come ho lavorato molto di più proprio nella <term subtype="music-term">composizione</term> e nella decisione di alcune cose, per esempio i pianoforti, li ho voluti lasciare proprio nel modo in cui erano nati. Anche certe sonorità le ho volute in un certo modo.</rs>
+                </p>
+            </div>
+            <div n="5">
+                <p>
+                    <rs type="question" rend="bold">Il <term subtype="music-term">brano</term> trainante <rs type="song">Se fossi più simpatica sarei meno antipatica</rs> è stato ripreso dal repertorio del "folle" <persName>Petrolini</persName>, un autore secondo me da riscoprire, qual è il motivo di questa scelta?</rs>
+                    <rs type="answer">Anch'io penso sia giusto riproporre questo autore, oggi ancora attualissimo. La scelta è avvenuta per caso, certe volte le cose avvengono proprio casualmente. È stato un consiglio di <persName>Franco <supplied>(Battiato n.d.a.)</supplied></persName>, ascoltando la radio si è imbattuto in questo <term subtype="music-term">pezzo</term>, proprio nel punto che mi compete, <quote rend="double angle quotation marks">se fossi più simpatico sarei meno antipatico</quote>. Eravamo a <placeName>Milano</placeName> proprio mentre stavo lavorando al <term subtype="music-term">disco</term>, mi ha detto: <quote rend="double angle quotation marks">Senti <persName><addName>Giuni</addName></persName>, ho sentito una cosa simpatica, per me dovresti farla, è un <term subtype="music-term">pezzo</term> di <persName>Petrolini</persName></quote>. Lui parlava ma per me era buio totale nella mente, <persName>Petrolini</persName> lo conosco ma non immaginavo cosa avesse potuto sentire. E così, aiutati anche da una mia amica, <persName>Cinzia Donti</persName>, siamo riusciti a trovarlo e lo abbiamo fatto. A <persName>Franco</persName> gli ho chiesto però di farmi l'<term subtype="music-term">arrangiamento</term>. Non ho mai pensato di fare un <term subtype="music-term">rap</term>, per quanto possa piacermi il <term subtype="music-term">rap</term> di un certo tipo, quindi essere alla prova con una cosa che non avevo mai pensato di fare mi ha stimolato. Fare le cose difficili, inusuali, che di solito non faccio, mi ha stimolato<sic>.....</sic></rs>
+                </p>
+            </div>
+            <div n="6">
+                <p>
+                    <rs type="question" rend="bold">Il <term subtype="music-term">testo</term> è stato modificato, reso più attuale?</rs>
+                    <rs type="answer">Sì, ma solo con piccole modifiche. Ti confesso che questo <term subtype="music-term">pezzo</term> l'ho fatto soprattutto per l'ironia, una cosa che mi è sembrata simpatica ma che finisce lì, poi io sono quella dal secondo <term subtype="music-term">pezzo</term> in poi<sic>.....</sic></rs>
+                </p>
+            </div>
+            <div n="7">
+                <p>
+                    <rs type="question" rend="bold">Quanta <placeName>Sicilia</placeName> c'è nelle tue <term subtype="music-term">composizioni</term>?</rs>
+                    <rs type="answer">Totale. Penso che si senta. Mi sono sempre sentita siciliana anche vivendo fuori dalla mia terra e in verità anche senza doverlo dimostrare<sic>.....</sic></rs>
+                </p>
+            </div>
+            <div n="8">
+                <p>
+                    <rs type="question" rend="bold">Che rappresenta oggi per te la realizzazione di questo <term subtype="music-term">album</term>?</rs>
+                    <rs type="answer">Tante cose. Una, la riuscita di un progetto discografico che per me negli ultimi anni è stato sempre difficoltoso da realizzare. Dovrei avere vergogna e paura di dirlo, invece no, credo che mi porti onore. Ultimamente la <term subtype="music-term">musica leggera</term>, e in particolar modo la musica al femminile, è trattata malissimo, è l'anticultura. E non parlo di me in questo momento, parlo della musica. Io penso che più in basso di così non si possa andare. Dopo aver toccato il fondo deve esserci il momento della risalita, qualcosa deve pure succedere. Che io c'entri o no questo poi non ha importanza. Sono arrabbiata per quello che è la musica italiana oggi<sic>.....</sic></rs>
+                </p>
+            </div>
+            <div n="9">
+                <p>
+                    <rs type="question" rend="bold">Parlando di te in un mio servizio precedente ti ho paragonata ad un gabbiano. Non solo per l'abilità vocale con cui riesci ad imitarlo, ma per la libertà artistica che ti ha sempre contraddistinta nel campo discografico fregandotene delle inevitabili imposizioni...</rs>
+                    <rs type="answer">Sì, ma spesso sono stata fregata io! (ride). Certo, se si dà retta ai discografici e meno a se stessi... Meglio rendersi la vita più semplice!</rs>
+                </p>
+            </div>
+            <div n="10">
+                <p>
+                    <rs type="question" rend="bold">Che ricordo hai di <persName><addName>Giusy</addName> <surname>Romeo</surname></persName>?</rs>
+                    <rs type="answer">Tenero. Come una mamma che guarda la propria bambina.</rs>
+                </p>
+            </div>
+            <div n="11">
+                <p>
+                    <rs type="question" rend="bold"><rs type="album">Energie</rs> e l'incontro con <persName>Battiato</persName>...</rs>
+                    <rs type="answer">Penso che quell'<term subtype="music-term">album</term> sia stato veramente il mio primo lavoro importante. Lo volli intitolare <rs type="album">Energie</rs> per la grande rabbia che avevo dentro. E questo si sente nel <term subtype="music-term">disco</term>. Credo che trasmettesse energie anche a chi lo ascoltava, in qualche maniera mi sono fatta sentire per forza.</rs>
+                </p>
+            </div>
+            <div n="12">
+                <p>
+                    <rs type="question" rend="bold">Anche se il successo è arrivato con <rs type="song">Un'estate al mare</rs>.</rs>
+                    <rs type="answer">Devo dire che quando mi proposero <rs type="song">Un'estate al mare</rs> qualcuno mi disse: <quote rend="double angle quotation marks">ma come, tu accetti di fare una <term subtype="music-term">canzoncina</term> così</quote>, invece a me piaceva. Ma io non credo sia una <term subtype="music-term">canzoncina</term> perché se la si riascolta adesso è musicalmente valida, non a caso c'è lo zampino di <persName>Battiato</persName>.</rs>
+                </p>
+            </div>
+            <div n="13">
+                <p>
+                    <rs type="question" rend="bold">Che effetto ti ha fatto realizzare un <term subtype="music-term">disco</term> impegnato come <rs type="album">Energie</rs> ed avere poi successo con il <term subtype="music-term">pop</term> di <rs type="song">Un'estate al mare</rs>?</rs>
+                    <rs type="answer">Mi ha fatto effetto sicuramente dopo, quando i discografici volevano tutti i miei <term subtype="music-term">pezzi</term> successivi uguali, dieci <rs type="song">Un'estate al mare</rs>, ma lì mi sono opposta ed ho avuto grossi problemi ancora una volta, quindi <quote rend="double angle quotation marks">se fossi più simpatica sarei meno antipatica</quote> già da sempre, capisci? Mi sono rifiutata di fare i <term subtype="music-term">dischetti</term> per l'estate di successo sicuro, come avrebbe voluta la mia <term subtype="music-term">casa discografica</term>.</rs>
+                </p>
+            </div>
+            <div n="14">
+                <p>
+                    <rs type="question" rend="bold">Il divorzio dalla <orgName>CGD</orgName> è avvenuto quindi per una scelta artistica che loro non condividevano?</rs>
+                    <rs type="answer">Ero io che non condividevo... è diverso! Perché loro forzatamente volevano delle cose, io forzatamente puntavo su altre. Ad esempio quando loro puntavano come <term subtype="music-term">pezzo</term> di punta su <rs type="song">Limonata cha cha cha</rs> io puntavo su <rs type="song">Mediterranea</rs>. Da lì lo screzio. Dopo <rs type="song">Un'estate al mare</rs> io volevo pilotare la mia carriera, quella che secondo me dovrebbe essere e ancora non lo è, ancora oggi lo dico, con <term subtype="music-term">album</term> di qualità ma la <orgName>CGD</orgName> puntava più che altro al <term subtype="music-term">45 giri</term>, però bisogna mediare anche, forse questo lo avrei dovuto capire anche prima.</rs>
+                </p>
+            </div>
+            <div n="15">
+                <p>
+                    <rs type="question" rend="bold">Passando alla <orgName>Bubble</orgName> ho avuto l'impressione che il criterio di scelta non fosse poi così diverso dall'<term subtype="music-term">album</term> precedente...</rs>
+                    <rs type="answer"><rs type="album">Giuni</rs> è venuto <date when="1986">due anni dopo</date> ed anche lì ho avuto difficoltà. Il vostro è un giornale particolare e lo voglio dire; dopo aver lasciato la <orgName>CGD</orgName> non trovavo più contratto, mi hanno ostacolata. L'unico che mi ha presa è stato <persName>Carlo Bixio</persName>, però ho dovuto fare una <term subtype="music-term">canzoncina</term> facile come <rs type="song">Alghero</rs> che in realtà non avrei voluto fare, ma sono stata costretta dagli eventi. Riconosco che non è un bel <term subtype="music-term">pezzo</term> però è un <term subtype="music-term">brano</term> simpatico, con una certa solarità, ha dell'allegria, del sentimento, ed è andato anche bene. Purtroppo... l'<term subtype="music-term">album</term> non si trovava nei negozi! Il successo è arrivato praticamente da solo.</rs>
+                </p>
+            </div>
+            <div n="16">
+                <p>
+                    <rs type="question" rend="bold">Com'è nata l'idea del duo <persName><addName>Russo</addName></persName>-<persName>Rettore</persName> in <rs type="song">Adrenalina</rs>?</rs>
+                    <rs type="answer">L'idea è stata mia. Eravamo insieme alla <orgName>CGD</orgName> e quasi contemporaneamente siamo andate via. Quando ho composto questo <term subtype="music-term">brano</term>, chissà perché ho pensato subito a <persName>Donatella</persName>. L'ho chiamata ma lei inizialmente era restia, doveva partire per <placeName>Londra</placeName>, poi anche consigliata dal suo impresario l'abbiamo fatto. È stato un atto d'amore verso una collega che forse, come me, era in crisi. Magari non era così, ma pensavo che potesse esserlo. Ero stata in crisi anch'io quando non trovavo più una <term subtype="music-term">casa discografica</term> e quella poteva essere un'occasione felice.</rs>
+                </p>
+            </div>
+            <div n="17">
+                <p>
+                    <rs type="question" rend="bold">Hai "duettato" con <persName>Battiato</persName>, con la <persName>Rettore</persName>, c'è un artista con cui vorresti ripetere l'esperienza?</rs>
+                    <rs type="answer">Il sogno di tutta la vita è quello di cantare con la mia <term subtype="music-term">cantante</term> preferita, <persName>Aretha Franklin</persName>, ma lo ha già fatto <persName>Annie Lennox</persName>! Il duetto con <persName>Franco Battiato</persName> è stata per me un'esperienza meravigliosa, non solo perché abbiamo cantato insieme, quanto per averlo fatto in siciliano. Per cui, per adesso sono molto soddisfatta.</rs>
+                </p>
+            </div>
+            <div n="18">
+                <p>
+                    <rs type="question" rend="bold"><persName><addName>Giuni Russo</addName></persName>, strettamente autrice. Hai scritto per <persName>Amanda Lear</persName>, per <persName>Rita Pavone</persName>...</rs>
+                    <rs type="answer">Ah, <distinct type="dialectal">ma tutto sai</distinct>! Anche le cose che non vorrei dire... (ride). A dir la verità a me piace molto comporre per altri, ma chissà perché solo in pochi casi sono riuscita dare <term subtype="music-term">brani</term> ad altri. Le mie colleghe credo che non li vogliano neanche sentire, a <persName>Mina</persName> ho inviato tantissimi <term subtype="music-term">brani</term> e credo che anche lei non li abbia ascoltati. Ad esempio in questo nuovo <term subtype="music-term">album</term> c'è <rs type="song">Il vento folle</rs> che avevo scritto per una collega, ma non ti dico chi. Malgrado a me piacesse molto, infatti lo ritengo uno dei <term subtype="music-term">brani</term> più belli del <term subtype="music-term">disco</term>, lo ritenevo adattissimo a questa collega ma non se ne è fatto nulla. Anche nel campo musicale c'è questa mentalità di considerare di più i <term subtype="music-term">cantautori</term> uomini<sic>.....</sic></rs>
+                </p>
+            </div>
+            <div n="19">
+                <p>
+                    <rs type="question" rend="bold">Che musica ascolti generalmente?</rs>
+                    <rs type="answer">Di tutto. Dalla <term subtype="music-term">musica classica</term> al <term subtype="music-term">blues</term>. Devo dirti però che non sono una grande consumatrice di <term subtype="music-term">dischi</term>, anche se possiedo un po' di tutto.</rs>
+                </p>
+            </div>
+            <div n="20">
+                <p>
+                    <rs type="question" rend="bold">Perché secondo te non hanno molto spazio le <term subtype="music-term">cantautrici</term> in <placeName>Italia</placeName>?</rs>
+                    <rs type="answer">Perché sono donne. Qualcuno ha sparso la voce che le donne non vendono, ma dove sono le donne? Createle e poi tenetele nel tempo. E invece no. Si creano le ragazzine, le figlie del discografico, le nipoti del politico, eccetera. I capostipiti non ci sono più , o meglio, ci sono negli uomini, nel campo femminile no. Abbiamo la sola <persName>Mina</persName>, poi c'è poca varietà secondo me. <persName>Alice</persName> è un'artista che si contraddistingue per stile, anche <persName>Teresa De Sio</persName>, un'altra potrei essere io, c'è soprattutto <persName>Patty Pravo</persName>, che io stimo molto come artista e vorrei rivederla ancora come merita. In campo maschile c'è <persName>Vasco Rossi</persName>, benissimo mi piace molto, ma poi ci sono altri dieci <persName>Vasco Rossi</persName> che lo imitano. Tutti imitano e la discografia gli dà retta! Quando ero alla <orgName>CGD</orgName> dicevo <quote rend="double angle quotation marks">cercate di curarmi per una strada che un giorno forse ci darà soddisfazioni</quote> ma loro mi preferivano con la <term subtype="music-term">canzoncina</term> facile. Poi sai, parlare di me in questo modo e in questi termini mi costa molto, significa salire dei gradini e mettersi su un piedistallo, può anche suonare così. Quando si parla di sé si deve stare molto attenti, è molto difficile, però io queste cose le voglio dire...</rs>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <bibl>
+                    <ref target="http://www.vocidivine.altervista.org/2004russo.htm">
+                        <biblStruct>
+                            <analytic>
+                                <author>Rosario Bono</author>
+                                <title level="a">Se fossi più simpatica... sarei meno antipatica</title>
+                            </analytic>
+                            <monogr>
+                                <title level="u">Voci divine</title>
+                                <imprint>
+                                    <date when="2008-12-12">12 dicembre 2008</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </ref>
+                </bibl>
+            </div>
+        </back>
+    </text>
+</TEI>

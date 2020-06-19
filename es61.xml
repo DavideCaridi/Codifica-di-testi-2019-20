@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!-- Trascrivere e codificare un frammento di lettera di Bellini -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Giuditta Turina, in Venezia, 20 gennaio 1830</title>
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+                <date when="2020">2020</date>
+            </publicationStmt>
+			<sourceDesc>
+				<bibl source="#Seminara2017" resp="#GS" ana="111">
+					<citedRange unit="page" from="206" to="207">206-207</citedRange>
+				</bibl>
+				<listPerson>
+					<head>Lista Persone</head>
+					<person xml:id="VB" sameAs="http://viaf.org/viaf/39560983">
+						<persName role="composer">
+							<ref target="https://data.rism.info/id/rismauthorities/pe11648 http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
+							<forename>Vincenzo</forename>
+							<forename>Salvatore</forename>
+							<forename>Carmelo</forename>
+							<forename>Francesco </forename>
+							<surname>Bellini</surname>
+							<addName type="alias">Il Cigno</addName>
+							<roleName type="honorific">Cavaliere della Legione d'onore</roleName>
+						</persName>
+						<sex>M </sex>
+						<birth>
+							<date when="1801-11-03">3 novembre 1801</date>
+							<placeName ref="#CT">
+								<settlement type="municipality">Catania</settlement>
+								<settlement type="provincia" key="CT">Catania</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1835-09-23">23 settembre 1835</date>
+							<placeName ref="#Put">
+								<settlement type="municipality">Puteaux</settlement>
+								<settlement type="department" key="Paris">Paris</settlement>
+								<country key="FR">France</country>
+							</placeName>
+						</death>
+						<note/>
+					</person>
+					<person xml:id="GCT" sameAs="http://viaf.org/viaf/3324410">
+						<persName>
+							<ref target="https://data.rism.info/id/rismauthorities/pe40216349"/>
+							<forename>Giuditta</forename>
+							<surname>Cantù</surname>
+							<surname>Turina</surname>
+						</persName>
+						<sex>F </sex>
+						<birth>
+							<date when="1803">1803</date>
+							<placeName ref="#MI">
+								<settlement type="municipality">Milano</settlement>
+								<settlement type="provincia" key="MI">Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1871">1871</date>
+							<placeName ref="#MI">
+								<settlement type="municipality">Milano</settlement>
+								<settlement type="provincia" key="MI">Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+						<note/>
+					</person>
+				</listPerson>
+				<listPlace>
+					<head>Lista dei luoghi</head>
+					<place xml:id="CT">
+                        <placeName ref="http://www.geonames.org/2525068/catania.html http://www.treccani.it/enciclopedia/catania/">Catania</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="MI">
+                        <placeName ref="http://www.geonames.org/3173435 http://www.treccani.it/enciclopedia/milano/">Milano</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="Put">
+                        <placeName ref="http://www.geonames.org/2985034 http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)">Puteaux</placeName>
+                        <district type="arrondissement">Nanterre</district>
+                        <settlement type="city">Paris</settlement>
+                        <country key="FR">France</country>
+                        <note/>
+                    </place>
+					<place xml:id="VE">
+                        <placeName ref="http://www.geonames.org/3164603 http://www.treccani.it/enciclopedia/venezia/">Venezia</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+    <text type="lettera" xml:id="LL1.2" subtype="manuscript" n="LL1.2">
+		<body xml:lang="it">
+			<div type="fronte-recto">
+				<pb n="1" xml:id="LL1.2_fol_1fr"/>
+				<div type="opener" n="o_01">
+					<dateline n="ab_01">
+						<s type="sentence" n="s_01">
+							<lb xml:id="LL1.2_lb_1fr_01" n="1"/>
+							<hi rend="align(right)"><placeName ref="#VE">Venezia</placeName> <date when="1830-01-20" cert="high" resp="#GS">20 del 1830</date></hi>
+						</s>
+					</dateline>					
+				</div>
+				<div type="letter-body" n="t_01">
+					<salute  n="ab_02">
+						<s type="sentence" n="s_02">
+							<lb xml:id="LL1.2_lb_1fr_02" n="2"/>
+							Mia cara <persName ref="#GCT">amica</persName>
+						</s>
+					</salute>
+				</div>
+			</div>
+		</body>
+		<back>
+			<div type="biblCompleta">
+				<bibl xml:id="Seminara2017" type="print">
+					<editor ref="#GS">
+						<forename>Graziella</forename>
+						<surname>Seminara</surname>
+					</editor>
+					<title level="m">Vincenzo Bellini. Carteggi</title>
+					<title level="s">Historiae Musicae Cultores</title>
+					<biblScope unit="volume">CXXXI</biblScope>
+					<biblScope unit="page">pp. vi+622</biblScope>
+					<pubPlace>Firenze</pubPlace>
+					<publisher>Leo S. Olschki Editore</publisher>
+					<date when="2017">2017</date>
+				</bibl>
+			</div>
+		</back>
+	</text>
+</TEI>

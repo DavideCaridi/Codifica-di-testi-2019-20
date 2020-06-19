@@ -1,0 +1,10 @@
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!-- Definire i seguenti elementi... -->
+<!ELEMENT TEI (header,facsimile?,text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>

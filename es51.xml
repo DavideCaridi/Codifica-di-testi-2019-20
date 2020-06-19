@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!-- Marcare un testo plain text di circa 3000 caratteri a piacere -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>L'ultimo discorso di Borsellino in ricordo di Falcone: tu vivrai per sempre</title>
+                <author>Paolo Borsellino</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digital Edition <date when="2020-06">June 2020</date></edition>
+                <respStmt>
+                    <resp>TEI P5 conversion by</resp>
+                    <name>Davide Caridi</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date when="2020-06">June 2020</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl>
+                        <title>Le ultime parole di Falcone e Borsellino</title>
+                        <author>Antonella Mascali</author>
+                        <publisher>Chiarelettere</publisher>
+                        <pubPlace>Milano</pubPlace>
+                        <date when="2012">2012</date>
+                    </bibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">L'ultimo discorso di Borsellino in ricordo di Falcone: tu vivrai per sempre</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j">globalist.it</title>
+                            <imprint>
+                                <date when="2019-05-23">23 maggio 2019</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart>L'ultimo discorso di <persName>Borsellino</persName> in ricordo di <persName>Falcone</persName>: tu vivrai per sempre</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Antonella Mascali</docAuthor>
+                </byline>
+                <docImprint>
+                    <publisher>Chiarelettere</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <date when="2012">2012</date>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body xml:lang="it">
+            <pb n="1"/>
+            <div n="1">
+                <p><persName>Giovanni Falcone</persName> lavorava con perfetta coscienza che la forza del male, la <orgName>mafia</orgName>, lo avrebbe un giorno ucciso. <persName>Francesca Morvillo</persName> stava accanto al suo uomo con perfetta coscienza che avrebbe condiviso la sua sorte. Gli uomini della scorta proteggevano <persName>Falcone</persName> con perfetta coscienza che sarebbero stati partecipi della sua sorte.</p>
+                <p>Non poteva ignorare, e non ignorava, <persName>Giovanni Falcone</persName>, l'estremo pericolo che egli correva perché troppe vite di suoi compagni di lavoro e di suoi amici sono state stroncate sullo stesso percorso che egli si imponeva. Perché non è fuggito, perché ha accettato questa tremenda situazione, perché mai si è turbato, perché è stato sempre pronto a rispondere a chiunque della speranza che era in lui? Per amore! La sua vita è stata un atto di amore verso questa sua città, verso questa terra che lo ha generato, che tanto non gli piaceva. Perché se l'amore è soprattutto ed essenzialmente dare, per lui, e per coloro che gli siamo stati accanto in questa meravigliosa avventura, amore verso <placeName>Palermo</placeName> e la sua gente ha avuto e ha il significato di dare a questa terra qualcosa, tutto ciò che era ed è possibile dare delle nostre forze morali, intellettuali e professionali per rendere migliore questa città e la patria a cui essa appartiene.</p>
+                <p>Qui <persName>Falcone</persName> cominciò a lavorare in modo nuovo. E non solo nelle tecniche di indagine. Ma anche consapevole che il lavoro dei magistrati e degli inquirenti doveva entrare nella stessa lunghezza d'onda del sentire di ognuno. La lotta alla <orgName>mafia</orgName> (primo problema morale da risolvere nella nostra terra, bellissima e disgraziata) non doveva essere soltanto una distaccata opera di repressione, ma un movimento culturale e morale, anche religioso, che coinvolgesse tutti, che tutti abituasse a sentire la bellezza del fresco profumo di libertà che si oppone al puzzo del compromesso morale, della indifferenza, della contiguità e, quindi, della complicità. Ricordo la felicità di <persName>Falcone</persName>, quando in un breve periodo di entusiasmo conseguente ai dirompenti successi originati dalle dichiarazioni di <persName>Buscetta</persName> <supplied>[il pentito Tommaso Buscetta]</supplied>, egli mi disse: <quote rend="double angle quotation marks">La gente fa il tifo per noi</quote>. E con ciò non intendeva riferirsi soltanto al conforto che l'appoggio morale della popolazione dà al lavoro del giudice. Significava soprattutto che il nostro lavoro, il suo lavoro stava anche smuovendo le coscienze, rompendo i sentimenti di accettazione della convivenza con la <orgName>mafia</orgName>, che costituiscono la vera forza di essa.</p>
+                <p>Questa stagione del <quote rend="double angle quotation marks">tifo per noi</quote> sembrò durare poco perché ben presto sopravvennero il fastidio e l'insofferenza al prezzo che alla lotta alla <orgName>mafia</orgName>, alla lotta al male, doveva essere pagato dalla cittadinanza. Insofferenza alle scorte, insofferenza alle sirene, insofferenza alle indagini, insofferenza a una lotta d'amore che costava però a ciascuno, non certo i terribili sacrifici di <persName>Falcone</persName>, ma la rinuncia a tanti piccoli o grossi vantaggi, a tante piccole o grandi comode abitudini, a tante minime o consistenti situazioni fondate sull'indifferenza, sull'omertà o sulla complicità. Insofferenza che finì per invocare e ottenere, purtroppo, provvedimenti legislativi che, fondati su una ubriacatura di garantismo, ostacolarono gravemente la repressione di <orgName>Cosa nostra</orgName> e fornirono un alibi a chi, dolosamente o colposamente, di lotta alla <orgName>mafia</orgName> non ha mai voluto occuparsene. In questa situazione <persName>Falcone</persName> andò via da <placeName>Palermo</placeName>. Non fuggì. Cercò di ricreare altrove, da più vasta prospettiva, le ottimali condizioni del suo lavoro. Per poter continuare a <quote rend="double angle quotation marks">dare</quote>. Per poter continuare ad <quote rend="double angle quotation marks">amare</quote>. Venne accusato di essersi troppo avvicinato al potere politico. Menzogna!</p>
+                <p>Qualche mese di lavoro in un ministero non può far dimenticare il suo lavoro di dieci anni. E come lo fece! Lavorò incessantemente per rientrare in magistratura. Per fare il magistrato, indipendente come sempre lo era stato, mentre si parlava male di lui, con vergogna di quelli che hanno malignato sulla sua buona condotta. Muore e tutti si accorgono quali dimensioni ha questa perdita. Anche coloro che per averlo denigrato, ostacolato, talora odiato e perseguitato, hanno perso il diritto di parlare! Nessuno tuttavia ha perso il diritto, anzi il dovere sacrosanto, di continuare questa lotta. Se egli è morto nella carne ma è vivo nello spirito, come la fede ci insegna, le nostre coscienze se non si sono svegliate debbono svegliarsi.</p>
+                <p>La speranza è stata vivificata dal suo sacrificio. Dal sacrificio della sua donna. Dal sacrificio della sua scorta.</p>
+                <p>Molti cittadini, ed è la prima volta, collaborano con la giustizia. Il potere politico trova il coraggio di ammettere i suoi sbagli e cerca di correggerli, almeno in parte, restituendo ai magistrati gli strumenti loro tolti con stupide scuse accademiche.</p>
+                <p>Occorre evitare che si ritorni di nuovo indietro. Occorre dare un senso alla morte di <persName>Giovanni</persName>, della dolcissima <persName>Francesca</persName>, dei valorosi uomini della sua scorta. Sono morti tutti per noi, per gli ingiusti, abbiamo un grande debito verso di loro e dobbiamo pagarlo gioiosamente, continuando la loro opera. Facendo il nostro dovere; rispettando le leggi, anche quelle che ci impongono sacrifici; rifiutando di trarre dal sistema mafioso anche i benefici che possiamo trarne (anche gli aiuti, le raccomandazioni, i posti di lavoro); collaborando con la giustizia; testimoniando i valori in cui crediamo, in cui dobbiamo credere, anche dentro le aule di giustizia.</p>
+                <p>Troncando immediatamente ogni legame di interesse, anche quelli che ci sembrano innocui, con qualsiasi persona portatrice di interessi mafiosi, grossi o piccoli; accettando in pieno questa gravosa e bellissima eredità di spirito; dimostrando a noi stessi e al mondo che <persName>Falcone</persName> è vivo.</p>
+            </div>
+            <div n="2">
+                <p>Parole pronunciate alla Veglia per <persName>Giovanni Falcone</persName>, nella <placeName>chiesa di Sant'Ernesto</placeName>, a <placeName>Palermo</placeName> il <date when="1992-06-23">23 giugno 1992</date>.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <bibl>
+                    <ref target="http://www.globalist.it/news/2019/05/23/l-ultimo-discorso-di-borsellino-in-ricordo-di-falcone-tu-vivrai-per-sempre-2024766.html">
+                        <biblStruct>
+                            <analytic>
+                                <title level="a">L'ultimo discorso di Borsellino in ricordo di Falcone: tu vivrai per sempre</title>
+                            </analytic>
+                            <monogr>
+                                <title level="j">globalist.it</title>
+                                <imprint>
+                                    <date when="2019-05-23">23 maggio 2019</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </ref>
+                </bibl>
+            </div>
+        </back>
+    </text>
+</TEI>

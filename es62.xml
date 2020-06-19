@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!-- Codificare lettera Bellini utilizzando il tagset facsimile e il collegamento completo testo-immagine -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Giuditta Turina, in Venezia, 20 gennaio 1830</title>
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+                <date when="2020">2020</date>
+            </publicationStmt>
+			<sourceDesc>
+				<bibl source="#Seminara2017" resp="#GS" ana="111">
+					<citedRange unit="page" from="206" to="207">206-207</citedRange>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<idno type="inventory">LL1.2</idno>
+						<altIdentifier>
+							<idno type="collocation">in esposizione Casa Natale, sala B, vetrina 3, ripiano 1, I</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<physDesc>
+						<handDesc hands="4">
+							<handNote>
+								<p>Scrittura di Bellini a mano libera leggibile.</p>
+							</handNote>
+							<handNote xml:id="h1">
+								<p>Segno simile alle lettere VI di significato e origine incerti, ricorrente nell'epistolario di Bellini.</p>
+							</handNote>
+							<handNote xml:id="h2">
+								<p>Una annotazione sul fronte-verso, probabilmente dovuta ad un catalogatore, che presenta il numero 20.</p>
+							</handNote>
+							<handNote xml:id="h3">
+								<p>Una annotazione a matita sul fronte-verso che presenta un simbolo simile alla lettera g minuscola.</p>
+							</handNote>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+				<listPerson>
+					<head>Lista Persone</head>
+					<person xml:id="VB" sameAs="http://viaf.org/viaf/39560983">
+						<persName role="composer">
+							<ref target="https://data.rism.info/id/rismauthorities/pe11648 http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
+							<forename>Vincenzo</forename>
+							<forename>Salvatore</forename>
+							<forename>Carmelo</forename>
+							<forename>Francesco </forename>
+							<surname>Bellini</surname>
+							<addName type="alias">Il Cigno</addName>
+							<roleName type="honorific">Cavaliere della Legione d'onore</roleName>
+						</persName>
+						<sex>M </sex>
+						<birth>
+							<date when="1801-11-03">3 novembre 1801</date>
+							<placeName ref="#CT">
+								<settlement type="municipality">Catania</settlement>
+								<settlement type="provincia" key="CT">Catania</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1835-09-23">23 settembre 1835</date>
+							<placeName ref="#Put">
+								<settlement type="municipality">Puteaux</settlement>
+								<settlement type="department" key="Paris">Paris</settlement>
+								<country key="FR">France</country>
+							</placeName>
+						</death>
+						<note/>
+					</person>
+					<person xml:id="GCT" sameAs="http://viaf.org/viaf/3324410">
+						<persName>
+							<ref target="https://data.rism.info/id/rismauthorities/pe40216349"/>
+							<forename>Giuditta</forename>
+							<surname>Cantù</surname>
+							<surname>Turina</surname>
+						</persName>
+						<sex>F </sex>
+						<birth>
+							<date when="1803">1803</date>
+							<placeName ref="#MI">
+								<settlement type="municipality">Milano</settlement>
+								<settlement type="provincia" key="MI">Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+						<death>
+							<date when="1871">1871</date>
+							<placeName ref="#MI">
+								<settlement type="municipality">Milano</settlement>
+								<settlement type="provincia" key="MI">Milano</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+						<note/>
+					</person>
+				</listPerson>
+				<listPlace>
+					<head>Lista dei luoghi</head>
+					<place xml:id="Casal">
+                        <placeName ref="http://www.geonames.org/3180242/casalbuttano.html http://www.treccani.it/enciclopedia/casalbuttano-ed-uniti/">Casalbuttano</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="CR">
+                        <placeName ref="http://www.geonames.org/3177838/cremona.html http://www.treccani.it/enciclopedia/cremona/">Cremona</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="CT">
+                        <placeName ref="http://www.geonames.org/2525068/catania.html http://www.treccani.it/enciclopedia/catania/">Catania</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="MI">
+                        <placeName ref="http://www.geonames.org/3173435 http://www.treccani.it/enciclopedia/milano/">Milano</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+					<place xml:id="Put">
+                        <placeName ref="http://www.geonames.org/2985034 http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)">Puteaux</placeName>
+                        <district type="arrondissement">Nanterre</district>
+                        <settlement type="city">Paris</settlement>
+                        <country key="FR">France</country>
+                        <note/>
+                    </place>
+					<place xml:id="VE">
+                        <placeName ref="http://www.geonames.org/3164603 http://www.treccani.it/enciclopedia/venezia/">Venezia</placeName>
+                        <country key="IT">Italia</country>
+                        <note/>
+                    </place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" xml:id="LL1.2_folio_1fr">
+			<graphic url="LL1.2_0001.jpg" width="1541px" height="2290px"/>
+			<zone ulx="795" uly="115" lrx="1331" lry="189" rendition="Line" xml:id="LL1.2_line_1fr_01"/>
+			<zone ulx="242" uly="207" lrx="766" lry="290" rendition="Line" xml:id="LL1.2_line_1fr_02"/>
+			<zone ulx="476" uly="313" lrx="1518" lry="403" rendition="Line" xml:id="LL1.2_line_1fr_03"/>
+			<zone ulx="126" uly="411" lrx="1518" lry="509" rendition="Line" xml:id="LL1.2_line_1fr_04"/>
+			<zone ulx="126" uly="505" lrx="1518" lry="600" rendition="Line" xml:id="LL1.2_line_1fr_05"/>
+			<zone ulx="126" uly="595" lrx="1518" lry="675" rendition="Line" xml:id="LL1.2_line_1fr_06"/>
+			<zone ulx="126" uly="685" lrx="1518" lry="788" rendition="Line" xml:id="LL1.2_line_1fr_07"/>
+			<zone ulx="126" uly="772" lrx="1518" lry="856" rendition="Line" xml:id="LL1.2_line_1fr_08"/>
+			<zone ulx="126" uly="865" lrx="1518" lry="964" rendition="Line" xml:id="LL1.2_line_1fr_09"/>
+			<zone ulx="126" uly="961" lrx="1518" lry="1069" rendition="Line" xml:id="LL1.2_line_1fr_10"/>
+			<zone ulx="126" uly="1060" lrx="1518" lry="1157" rendition="Line" xml:id="LL1.2_line_1fr_11"/>
+			<zone ulx="126" uly="1159" lrx="1518" lry="1255" rendition="Line" xml:id="LL1.2_line_1fr_12"/>
+			<zone ulx="126" uly="1242" lrx="1518" lry="1353" rendition="Line" xml:id="LL1.2_line_1fr_13"/>
+			<zone ulx="126" uly="1336" lrx="1518" lry="1438" rendition="Line" xml:id="LL1.2_line_1fr_14"/>
+			<zone ulx="126" uly="1429" lrx="1518" lry="1538" rendition="Line" xml:id="LL1.2_line_1fr_15"/>
+			<zone ulx="126" uly="1520" lrx="1518" lry="1628" rendition="Line" xml:id="LL1.2_line_1fr_16"/>
+			<zone ulx="126" uly="1629" lrx="1518" lry="1726" rendition="Line" xml:id="LL1.2_line_1fr_17"/>
+			<zone ulx="126" uly="1719" lrx="1518" lry="1824" rendition="Line" xml:id="LL1.2_line_1fr_18"/>
+			<zone ulx="126" uly="1823" lrx="1518" lry="1901" rendition="Line" xml:id="LL1.2_line_1fr_19"/>
+			<zone ulx="126" uly="1912" lrx="1518" lry="2011" rendition="Line" xml:id="LL1.2_line_1fr_20"/>
+			<zone ulx="126" uly="2003" lrx="1518" lry="2100" rendition="Line" xml:id="LL1.2_line_1fr_21"/>
+			<zone ulx="126" uly="2080" lrx="1518" lry="2175" rendition="Line" xml:id="LL1.2_line_1fr_22"/>
+			<zone ulx="126" uly="2163" lrx="1518" lry="2235" rendition="Line" xml:id="LL1.2_line_1fr_23"/>
+		</surface>
+		<surface n="2" xml:id="LL1.2_folio_1rr">
+			<graphic url="LL1.2_0002.jpg" width="1555px" height="2275px"/>
+			<zone ulx="167" uly="306" lrx="1541" lry="408" rendition="Line" xml:id="LL1.2_line_1rr_01"/>
+			<zone ulx="913" uly="398" lrx="1358" lry="489" rendition="Line" xml:id="LL1.2_line_1rr_02"/>
+			<zone ulx="1145" uly="485" lrx="1434" lry="545" rendition="Line" xml:id="LL1.2_line_1rr_03"/>
+			<zone ulx="332" uly="526" lrx="833" lry="695" rendition="Line" xml:id="LL1.2_line_1rr_04"/>
+		</surface>
+		<surface n="3" xml:id="LL1.2_folio_1rv">
+			<graphic url="LL1.2_0003.jpg" width="2282px" height="1545px"/>
+		</surface>
+		<surface n="4" xml:id="LL1.2_folio_1fv">
+			<graphic url="LL1.2_0004.jpg" width="2293px" height="1555px"/>
+			<zone ulx="1240" uly="583" lrx="1617" lry="679" rendition="Line" xml:id="LL1.2_line_1fv_01"/>
+			<zone ulx="622" uly="646" lrx="1610" lry="754" rendition="Line" xml:id="LL1.2_line_1fv_02"/>
+			<zone ulx="725" uly="777" lrx="1018" lry="843" rendition="Line" xml:id="LL1.2_line_1fv_03"/>
+			<zone ulx="1044" uly="800" lrx="1816" lry="913" rendition="Line" xml:id="LL1.2_line_1fv_04"/>
+			<!-- timbro mittente -->
+			<zone ulx="1504" uly="330" lrx="1873" lry="452" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_01"/>
+			<!-- seconda mano -->
+			<zone ulx="1116" uly="350" lrx="1677" lry="779" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_02"/>
+			<!-- terza mano -->
+			<zone ulx="927" uly="1061" lrx="1039" lry="1128" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_03"/>
+			<!-- quarta mano -->
+			<zone ulx="809" uly="1015" lrx="920" lry="1165" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_04"/>
+			<!-- sigillo -->
+			<zone ulx="1052" uly="1177" lrx="1326" lry="1468" rendition="HotSpot" xml:id="LL1.2_hotspot_1fv_05"/>
+		</surface>
+	</facsimile>
+    <text type="lettera" xml:id="LL1.2" subtype="manuscript" n="LL1.2">
+		<body xml:lang="it">
+			<div type="fronte-recto">
+				<pb n="1" xml:id="LL1.2_fol_1fr" facs="#LL1.2_folio_1fr"/>
+				<div type="opener" n="o_01">
+					<dateline n="ab_01">
+						<s type="sentence" n="s_01">
+							<lb xml:id="LL1.2_lb_1fr_01" n="1" facs="#LL1.2_line_1fr_01"/>
+							<hi rend="align(right)"><placeName ref="#VE">Venezia</placeName> <date when="1830-01-20" cert="high" resp="#GS">20 del 1830</date></hi>
+						</s>
+					</dateline>					
+				</div>
+				<div type="letter-body" n="t_01">
+					<salute  n="ab_02">
+						<s type="sentence" n="s_02">
+							<lb xml:id="LL1.2_lb_1fr_02" n="2" facs="#LL1.2_line_1fr_02"/>
+							Mia cara <persName ref="#GCT">amica</persName>
+						</s>
+					</salute>
+				</div>
+			</div>
+			<div type="fronte-verso">
+				<pb n="4" xml:id="LL1.2_fol_1fv_body" facs="#LL1.2_folio_1fv"/>
+				<div type="sent">
+					<ab xml:id="LL1.2_hs_1fv_01_body" facs="#LL1.2_hotspot_1fv_01">
+						<stamp type="postmark">
+							<mentioned>
+								<placeName ref="#VE">Venezia</placeName>
+							</mentioned>
+							<date when="1830-01-20">20 gennaio 1830</date>
+						</stamp>
+					</ab>
+				</div>
+				<div type="destination">
+					<ab type="receiver">
+						<address>
+							<lb xml:id="LL1.2_lb_1fv_01_body" n="1" facs="#LL1.2_line_1fv_01"/>
+							<addrLine>Madame</addrLine>
+							<lb xml:id="LL1.2_lb_1fv_02_body" n="2" facs="#LL1.2_line_1fv_02"/>
+							<addrLine>Madame <persName ref="#GCT">Judith Turina</persName></addrLine>
+							<lb xml:id="LL1.2_lb_1fv_03_body" n="3" facs="#LL1.2_line_1fv_03"/>
+							<addrLine><placeName ref="#CR">Cremone</placeName></addrLine>
+							<lb xml:id="LL1.2_lb_1fv_04_body" n="4" facs="#LL1.2_line_1fv_04"/>
+							<addrLine>pour <placeName ref="#Casal">Casalbuttano</placeName></addrLine>
+						</address>
+					</ab>
+				</div>
+				<div type="paratext">
+					<ab type="paratext" subtype="addition" hand="#h1" xml:id="LL1.2_hs_1fv_02" facs="#LL1.2_hotspot_1fv_02">
+						<unclear>VI</unclear>
+					</ab>
+					<ab type="paratext" subtype="addition" hand="#h2" xml:id="LL1.2_hs_1fv_03" facs="#LL1.2_hotspot_1fv_03">
+						<fw type="catalogNum">
+							<idno type="oldCat">20</idno>
+						</fw>
+					</ab>
+					<ab type="paratext" subtype="addition" hand="#h3" xml:id="LL1.2_hs_1fv_04" facs="#LL1.2_hotspot_1fv_04">
+						<unclear>g</unclear>
+					</ab>
+				</div>
+			</div>
+		</body>
+		<back>
+			<div type="biblCompleta">
+				<bibl xml:id="Seminara2017" type="print">
+					<editor ref="#GS">
+						<forename>Graziella</forename>
+						<surname>Seminara</surname>
+					</editor>
+					<title level="m">Vincenzo Bellini. Carteggi</title>
+					<title level="s">Historiae Musicae Cultores</title>
+					<biblScope unit="volume">CXXXI</biblScope>
+					<biblScope unit="page">pp. vi+622</biblScope>
+					<pubPlace>Firenze</pubPlace>
+					<publisher>Leo S. Olschki Editore</publisher>
+					<date when="2017">2017</date>
+				</bibl>
+			</div>
+		</back>
+	</text>
+</TEI>

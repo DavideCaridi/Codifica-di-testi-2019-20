@@ -1,0 +1,7 @@
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!ELEMENT text (p+)>
+<!ELEMENT p (#PCDATA)>

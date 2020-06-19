@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    studente: Davide Caridi
+    matricola: 559522
+    corso: codifica di testi 2019-20
+-->
+<!-- Inserire nel prologo di un documento XML la dichiarazione del tipo di documento e validare -->
+<!DOCTYPE text SYSTEM "es37.dtd">
+<text>
+    <p>Xml validato</p>
+    <p>Un altro paragrafo</p>
+</text>
