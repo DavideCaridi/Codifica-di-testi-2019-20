@@ -25,26 +25,25 @@
                 <date when="2020-06">June 2020</date>
             </publicationStmt>
             <sourceDesc>
-                <listBibl>
-                    <bibl>
-                        <title>Le ultime parole di Falcone e Borsellino</title>
-                        <author>Antonella Mascali</author>
-                        <publisher>Chiarelettere</publisher>
-                        <pubPlace>Milano</pubPlace>
-                        <date when="2012">2012</date>
-                    </bibl>
-                    <biblStruct>
-                        <analytic>
-                            <title level="a">L'ultimo discorso di Borsellino in ricordo di Falcone: tu vivrai per sempre</title>
-                        </analytic>
-                        <monogr>
-                            <title level="j">globalist.it</title>
-                            <imprint>
-                                <date when="2019-05-23">23 maggio 2019</date>
-                            </imprint>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
+                <bibl>
+                    <title>Le ultime parole di Falcone e Borsellino</title>
+                    <author>Antonella Mascali</author>
+                    <publisher>Chiarelettere</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <date when="2012">2012</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>es51</idno>
+                    </msIdentifier>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source xml:base="http://www.globalist.it/news/2019/05/23/l-ultimo-discorso-di-borsellino-in-ricordo-di-falcone-tu-vivrai-per-sempre-2024766.html">L'ultimo discorso di Borsellino in ricordo di Falcone: tu vivrai per sempre, globalist.it</source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -81,24 +80,5 @@
                 <p>Parole pronunciate alla Veglia per <persName>Giovanni Falcone</persName>, nella <placeName>chiesa di Sant'Ernesto</placeName>, a <placeName>Palermo</placeName> il <date when="1992-06-23">23 giugno 1992</date>.</p>
             </div>
         </body>
-        <back>
-            <div type="bibliography">
-                <bibl>
-                    <ref target="http://www.globalist.it/news/2019/05/23/l-ultimo-discorso-di-borsellino-in-ricordo-di-falcone-tu-vivrai-per-sempre-2024766.html">
-                        <biblStruct>
-                            <analytic>
-                                <title level="a">L'ultimo discorso di Borsellino in ricordo di Falcone: tu vivrai per sempre</title>
-                            </analytic>
-                            <monogr>
-                                <title level="j">globalist.it</title>
-                                <imprint>
-                                    <date when="2019-05-23">23 maggio 2019</date>
-                                </imprint>
-                            </monogr>
-                        </biblStruct>
-                    </ref>
-                </bibl>
-            </div>
-        </back>
     </text>
 </TEI>

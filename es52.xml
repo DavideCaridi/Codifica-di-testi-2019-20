@@ -29,33 +29,31 @@
                 <date when="2020-06">June 2020</date>
             </publicationStmt>
             <sourceDesc>
-                <listBibl>
-                    <biblStruct>
-                        <analytic>
-                            <author>Fernando Fratarcangeli</author>
-                            <title level="a">Se fossi più simpatica... sarei meno antipatica</title>
-                        </analytic>
-                        <monogr>
-                            <title level="j">RARO!</title>
-                            <imprint>
-                                <date when="1994-10">ottobre 1994</date>
-                            </imprint>
-                            <biblScope unit="issue">47</biblScope>
-                        </monogr>
-                    </biblStruct>
-                    <biblStruct>
-                        <analytic>
-                            <author>Rosario Bono</author>
-                            <title level="a">Se fossi più simpatica... sarei meno antipatica</title>
-                        </analytic>
-                        <monogr>
-                            <title level="u">Voci divine</title>
-                            <imprint>
-                                <date when="2008-12-12">12 dicembre 2008</date>
-                            </imprint>
-                        </monogr>
-                    </biblStruct>
-                </listBibl>
+                <biblStruct>
+                    <analytic>
+                        <author>Fernando Fratarcangeli</author>
+                        <title level="a">Se fossi più simpatica... sarei meno antipatica</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">RARO!</title>
+                        <imprint>
+                            <date when="1994-10">ottobre 1994</date>
+                        </imprint>
+                        <biblScope unit="issue">47</biblScope>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>es52</idno>
+                    </msIdentifier>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source xml:base="http://www.vocidivine.altervista.org/2004russo.htm">Se fossi più simpatica... sarei meno antipatica, Voci divine</source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -197,25 +195,5 @@
                 </p>
             </div>
         </body>
-        <back>
-            <div type="bibliography">
-                <bibl>
-                    <ref target="http://www.vocidivine.altervista.org/2004russo.htm">
-                        <biblStruct>
-                            <analytic>
-                                <author>Rosario Bono</author>
-                                <title level="a">Se fossi più simpatica... sarei meno antipatica</title>
-                            </analytic>
-                            <monogr>
-                                <title level="u">Voci divine</title>
-                                <imprint>
-                                    <date when="2008-12-12">12 dicembre 2008</date>
-                                </imprint>
-                            </monogr>
-                        </biblStruct>
-                    </ref>
-                </bibl>
-            </div>
-        </back>
     </text>
 </TEI>
